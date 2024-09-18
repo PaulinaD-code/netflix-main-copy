@@ -254,7 +254,6 @@ video{
   overflow: hidden;
   visibility: hidden;
   max-height: 0;
- /* padding: 1.5rem;*/
   transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
   text-align: left;
   box-sizing: border-box;
@@ -321,7 +320,6 @@ h3{
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-
 }
 
 .default-ltr-cache-v70qew{
@@ -375,7 +373,6 @@ h3{
 
 /* koniec inputa z netflixa */
 
-
 .tv-main-container-image{
   width: 100%;
   width: 690px;
@@ -400,7 +397,7 @@ h3{
 .watch-anywhere-main-container-image{
   width: 100%;
   width: 750px;
-  background-image: url('/img/main-img/device-pile.png');
+  background-image: url('img/main-img/device-pile.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

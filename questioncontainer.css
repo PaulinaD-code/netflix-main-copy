@@ -1,0 +1,181 @@
+.questions-n-answers{
+    max-width: 85%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .questions-n-answers-subcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .question-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 0.0625rem;
+    position: relative;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    font: inherit;
+    font-size: 1.5em;
+    border: none;
+    z-index: 1;
+  }
+  
+  .question-btn:hover{
+    background-color: rgb(66, 66, 66);
+  }
+  
+  .plus-btn-icon{
+    height: 1.5em;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+  }
+  
+  .plus-rotate{
+    transform: rotate(-45deg);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+  }
+  
+  .answers-container{
+    font-size: 1.5em;
+    background-color: #2d2d2d;
+    padding: 0 1em;
+    margin: 0 0 .3em 0;
+    overflow: hidden;
+    visibility: hidden;
+    max-height: 0;
+   /* padding: 1.5rem;*/
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    text-align: left;
+    box-sizing: border-box;
+  }
+  
+  .answers-container-visible{
+    font-size: 1.5em;
+    background-color: #2d2d2d;
+    padding: 0 1em;
+    margin: 0 0 .3em 0;
+    overflow: hidden;
+    visibility: visible;
+    max-height: 75rem;
+    padding: 1.5rem;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    text-align: left;
+    display: block;
+  }
+  
+  .addnotation{
+    width: 50%;
+    margin: 1em auto;
+  }
+  
+  h3{
+    display: block;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5; 
+  }
+  
+  .input-container{
+    display: flex;
+    width: auto;
+    flex: 1 1 auto;
+    flex-direction: column;
+      -webkit-box-flex: 1;
+  }
+
+  /* input z netflixa */
+
+.field-email-container{
+    text-align: left;
+    position: relative;
+    margin: 1rem auto 0;
+    width: 100%;
+    max-width: 36.625rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;  
+  }
+  
+  .default-ltr-cache-v70qew{
+    display: block;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+  .ea3diy32{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .default-ltr-cache-fmygl2{
+      -webkit-box-align: center;
+      align-items: center;
+      display: inline-flex;
+      font-size: 13px;
+      font-weight: 400;
+      gap: 2px;
+      letter-spacing: normal;
+      line-height: 100%;
+      padding: 2px;
+      position: relative;
+      text-align: left;
+      z-index: 0;
+  }
+  
+  .ea3diy34{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+  
+  .default-ltr-cache-9sz7uz input ~ .ea3diy33 {
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+  }
+  
+  .default-ltr-cache-9sz7uz input ~ .ea3diy33 {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.25rem;
+    background: rgba(22, 22, 22, 0.7);
+    border-color: rgba(128, 128, 128, 0.7);
+  }
+  
+  /* koniec inputa z netflixa */

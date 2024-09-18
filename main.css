@@ -376,7 +376,7 @@ h3{
 .tv-main-container-image{
   width: 100%;
   width: 690px;
-  background-image: url('/img/main-img/tv.png');
+  background-image: url('img/main-img/tv.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -397,7 +397,7 @@ h3{
 .watch-anywhere-main-container-image{
   width: 100%;
   width: 750px;
-  background-image: url('img/main-img/device-pile.png');
+  background-image: url('./img/main-img/device-pile.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

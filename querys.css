@@ -1,0 +1,121 @@
+@media(max-width:500px){
+    .css-navbar-main-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 20px .5rem;
+        padding: 0;
+      }
+
+
+ .css-main-subcontainer-img-comment{
+  font-size: 12px;
+    margin: .8em 0;
+  }
+  
+  .main-subcontainer-information{
+    padding: 0;
+    max-width: 65rem;
+  }
+
+  .css-main-start-using-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    min-height: 3.5rem;
+    padding: 0.35rem .7em;
+   
+  }
+  
+  .icons-arrow-right{
+    height: 1.2rem;
+    margin-left: .5em;
+  }
+  
+  .main-subcontainer-information p{
+    font-size: 20px;
+    max-width: 90%;
+    margin: 1em auto;
+    line-height: 1.5;
+  }
+  
+  .main-subcontainer-information h1{
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .main-container-proposition-text{
+    font-size: 1.1rem;
+  }
+
+  .advantages-subcontainer{
+    padding: 2rem 0;
+  }
+  
+    .css-main-subcontainer-img-comment{
+        font-size: 18px;
+        margin: .8em 0;
+      }
+      
+      .main-subcontainer-information{
+        padding: 0;
+        max-width: 65rem;
+      }
+      
+      .main-subcontainer-information p{
+        font-size: 20px;
+        max-width: 90%;
+        margin: 1em auto;
+        line-height: 1.5;
+      }
+      
+      .main-subcontainer-information h1{
+        margin: 0;
+      }
+
+
+    .main-container-proposition-animation{
+     display: none;
+    }
+
+    .addnotation{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .addnotation h3{
+        width: 100%;
+        font-size: 1em;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0 1em;
+    }
+
+    .main-input-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1em;
+    }
+
+    .question-btn{
+        font-size: 1em;
+      }
+
+    .css-main-input-searching{
+        width: 90%;
+        box-sizing: border-box;
+        margin: 1em auto;
+
+   
+
+        font-size: 10px;
+        background-color: rgb(22, 22, 22) /*,rgb(133, 133, 133);*/;
+        padding: 15px 10px 8px;
+        fill: currentcolor;
+        min-width: 19.5rem;
+        position: static;
+    }
+      
+  }

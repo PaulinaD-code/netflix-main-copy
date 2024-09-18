@@ -10,7 +10,6 @@
         padding: 0;
       }
 
-
  .css-main-subcontainer-img-comment{
   font-size: 12px;
     margin: .8em 0;
@@ -42,7 +41,7 @@
   }
   
   .main-subcontainer-information h1{
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0;
   }
   
@@ -116,6 +115,19 @@
         fill: currentcolor;
         min-width: 19.5rem;
         position: static;
+    }
+
+
+    .tv-main-container-image{
+      width: 100%;
+      background-image: url('/img/main-img/tv.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+      position:relative;
+      z-index: 7;
+      box-sizing: border-box;
     }
       
   }
